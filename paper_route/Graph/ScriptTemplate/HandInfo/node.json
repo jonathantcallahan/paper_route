@@ -1,0 +1,95 @@
+{
+	"name": "Hand Info",
+	"nameKey": "graph_hand_info_name",
+	"id": "7aede0f5-d3b6-a35a-d9ab-8beb4236c147",
+	"inputs": [
+		{
+			"name": "Detect",
+			"nameKey": "graph_hand_info_input_detect",
+			"description": "The hand to detect the gesture. Hand 0 represents the first hand appearing in the scene, Hand 1 represents the second hand appearing in the scene.",
+			"descriptionKey": "graph_hand_info_input_detect_description",
+			"type": "String",
+			"displayType": "String",
+			"displayTypeKey": "graph_type_string",
+			"value_list": [
+				"Hand 0",
+				"Hand 1"
+			],
+			"value_list_i18n_keys": [
+				"graph_hand_info_input_detect_valueList_hand_0",
+				"graph_hand_info_input_detect_valueList_hand_1"
+			]
+		}
+	],
+	"outputs": [
+		{
+			"name": "Rect",
+			"nameKey": "graph_hand_info_output_rect",
+			"description": "The bounding rectangle of the detected hand.",
+			"descriptionKey": "graph_hand_info_output_rect_description",
+			"type": "Rect",
+			"displayType": "Rect",
+			"displayTypeKey": "graph_type_rect"
+		},
+		{
+			"name": "Center Position",
+			"nameKey": "graph_hand_info_output_centerposition",
+			"description": "The center of the bounding rectangle of the detected hand.",
+			"descriptionKey": "graph_hand_info_output_centerposition_description",
+			"type": "Vector2f",
+			"displayType": "Vec2",
+			"displayTypeKey": "graph_type_vec2"
+		},
+		{
+			"name": "Rotation",
+			"nameKey": "graph_hand_info_output_rotation",
+			"description": "The  screen rotation (in radians) of the detected hand vertical axis.",
+			"descriptionKey": "graph_hand_info_output_rotation_description",
+			"type": "Double",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		},
+		{
+			"name": "2D Keypoints",
+			"nameKey": "graph_hand_info_output_2dkeypoints",
+			"description": "The hand keypoints in a format of the array (use the node “Get Item from Array” to access a specific keypoint position on a face).",
+			"descriptionKey": "graph_hand_info_output_2dkeypoints_description",
+			"type": "Array",
+			"dynamic": true,
+			"generic": "T",
+			"displayType": "{dataType} Array",
+			"displayTypeKey": "graph_type_generic_array"
+		},
+		{
+			"name": "Left Hand Probability",
+			"nameKey": "graph_hand_info_output_lefthandprobability",
+			"description": "Value range from 0 to 1, 0 means 100% right hand, 1 means 100% left hand.",
+			"descriptionKey": "graph_hand_info_output_lefthandprobability_description",
+			"type": "Double",
+			"displayType": "Number",
+			"displayTypeKey": "graph_type_number"
+		}
+	],
+	"category": "Hand",
+	"categoryKey": "graph_category_hand",
+	"version": "1.0.0",
+	"description": "Get the properties of a human hand in the camera scene, including the bounding rectangle, center position, rotation, and keypoints of the hand.",
+	"descriptionKey": "graph_hand_info_description",
+	"supportedValueTypes": [
+		"Vector2f"
+	],
+	"graphAlgorithms": [
+		"leftRightHandDetect"
+	],
+	"nodeEvent": [
+		"beforeStart",
+		"onUpdate"
+	],
+	"productTypes": [
+		"EHI",
+		"EHO",
+		"EHD"
+	],
+	"js": "CGHandInfo.js",
+	"onlineWebsite": "graph_hand_info_website"
+}

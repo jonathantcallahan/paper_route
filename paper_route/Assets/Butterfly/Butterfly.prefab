@@ -1,0 +1,586 @@
+%YAML 1.1
+--- !Prefab &1
+name: ""
+guid: {a: 4986263583735799906, b: 3114422057603947455}
+entities:
+  - __class: Entity
+    name: Butterfly
+    guid: {a: 5755531767399259536, b: 10373687156496679319}
+    selfvisible: true
+    components:
+      - {localId: 2}
+    layer: 0
+  - __class: Entity
+    name: ButterflyPink_Model
+    guid: {a: 5262369573893175892, b: 7836089006454192772}
+    selfvisible: true
+    components:
+      - {localId: 3}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 4777113543099225369, b: 3775228567358653837}
+    selfvisible: true
+    components:
+      - {localId: 4}
+      - __class: Animator
+        name: ""
+        guid: {a: 5603829123060631625, b: 7584567048983524027}
+        enabled: true
+        animations:
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz-1_Take 001.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz0_idle.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz1_bobbing.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz-1_Take 001: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: ButterflyRoot_jnt
+    guid: {a: 4657400173743719234, b: 7395562628850924199}
+    selfvisible: true
+    components:
+      - {localId: 5}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_R_jnt
+    guid: {a: 5523285740467699571, b: 12820782612236411011}
+    selfvisible: true
+    components:
+      - {localId: 6}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_L_jnt
+    guid: {a: 4721013501941826312, b: 4895976145949412497}
+    selfvisible: true
+    components:
+      - {localId: 7}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_R_jnt
+    guid: {a: 4781357442387779893, b: 17173036439856039061}
+    selfvisible: true
+    components:
+      - {localId: 8}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_L_jnt
+    guid: {a: 4736427954110910900, b: 6754435612869275566}
+    selfvisible: true
+    components:
+      - {localId: 9}
+    layer: 0
+  - __class: Entity
+    name: Butterfly_Mesh
+    guid: {a: 4843557390047259302, b: 11322405419999772326}
+    selfvisible: true
+    components:
+      - {localId: 10}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4877595091555357909, b: 16625346817338898309}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 40e8c75e-69bc-d7c9-72da-6012b2ef4e4a--40e8c75e-69bc-d7c9-72da-6012b2ef4e4a-skin.material}
+        sortingOrder: 0
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Butterfly_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: ButterflyBlue_Model
+    guid: {a: 4805187249030180071, b: 9840152637038332552}
+    selfvisible: true
+    components:
+      - {localId: 11}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5722381412756233881, b: 3847596482680629177}
+    selfvisible: true
+    components:
+      - {localId: 12}
+      - __class: Animator
+        name: ""
+        guid: {a: 5602912378429572928, b: 15718703815963639948}
+        enabled: true
+        animations:
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz-1_Take 001.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz0_idle.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz1_bobbing.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz1_bobbing: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: ButterflyRoot_jnt
+    guid: {a: 5029450637570018753, b: 4506619950281270687}
+    selfvisible: true
+    components:
+      - {localId: 13}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_R_jnt
+    guid: {a: 4881237764108867319, b: 18183013946523516052}
+    selfvisible: true
+    components:
+      - {localId: 14}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_L_jnt
+    guid: {a: 5697734123906560981, b: 3286455854766370215}
+    selfvisible: true
+    components:
+      - {localId: 15}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_R_jnt
+    guid: {a: 4687748302082001601, b: 3040094958819002518}
+    selfvisible: true
+    components:
+      - {localId: 16}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_L_jnt
+    guid: {a: 5144256082956080544, b: 8922882017649386369}
+    selfvisible: true
+    components:
+      - {localId: 17}
+    layer: 0
+  - __class: Entity
+    name: Butterfly_Mesh
+    guid: {a: 5707063739058063702, b: 5252654038236560572}
+    selfvisible: true
+    components:
+      - {localId: 18}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 4726099240066963860, b: 5888890801072967824}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 303a3952-14cb-7a0c-e914-40259c28ca00--303a3952-14cb-7a0c-e914-40259c28ca00-skin.material}
+        sortingOrder: 1
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Butterfly_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+  - __class: Entity
+    name: ButterflyMonarch_Model
+    guid: {a: 5293381448254197922, b: 18392631343651209370}
+    selfvisible: true
+    components:
+      - {localId: 19}
+    layer: 0
+  - __class: Entity
+    name: SkeletonAndRenderRoot
+    guid: {a: 5261887657766708663, b: 15994192138813943475}
+    selfvisible: true
+    components:
+      - {localId: 20}
+      - __class: Animator
+        name: ""
+        guid: {a: 5334136656857988037, b: 17159506808132278692}
+        enabled: true
+        animations:
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz-1_Take 001.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz0_idle.animaz}
+          - {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Animaz1_bobbing.animaz}
+        runningWrapModes:
+          __class: Map
+          Animaz1_bobbing: 0
+        cullingMode:
+          __class: AnimatorCullingMode
+          value: CULL_UPDATE_PROPERTY
+    layer: 0
+  - __class: Entity
+    name: ButterflyRoot_jnt
+    guid: {a: 5653400458664244899, b: 13658017054559103934}
+    selfvisible: true
+    components:
+      - {localId: 21}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_R_jnt
+    guid: {a: 5623904982174895018, b: 17419950628922398080}
+    selfvisible: true
+    components:
+      - {localId: 22}
+    layer: 0
+  - __class: Entity
+    name: UpperWing_L_jnt
+    guid: {a: 4838948080221870439, b: 7529187120993388165}
+    selfvisible: true
+    components:
+      - {localId: 23}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_R_jnt
+    guid: {a: 5060712317067536140, b: 16468073543038220187}
+    selfvisible: true
+    components:
+      - {localId: 24}
+    layer: 0
+  - __class: Entity
+    name: LowerWing_L_jnt
+    guid: {a: 5269231921409958744, b: 10813421408266410119}
+    selfvisible: true
+    components:
+      - {localId: 25}
+    layer: 0
+  - __class: Entity
+    name: Butterfly_Mesh
+    guid: {a: 5761667661901350995, b: 3086267058807659183}
+    selfvisible: true
+    components:
+      - {localId: 26}
+      - __class: SkinMeshRenderer
+        name: mesh0_renderer
+        guid: {a: 5708425736105111438, b: 15474134817300902022}
+        enabled: true
+        sharedMaterials:
+          - {localId: 1, path: 4cd89699-0c17-2355-a933-04264cde7af1--4cd89699-0c17-2355-a933-04264cde7af1-skin.material}
+        sortingOrder: 2
+        autoSortingOrder: true
+        useFrustumCulling: true
+        receiveShadow: true
+        lightProbeBlendMode:
+          __class: LightProbeBlendMode
+          value: OFF
+        entirePingPong: false
+        mesh: {localId: 1, path: 7048d70b-a6c2-f61d-6155-a2a8d8f51c3c--Butterfly_Mesh.mesh}
+        gpuTextureSkinning: false
+        useCoarseMesh: false
+        castShadow: false
+    layer: 0
+standaloneResources:
+  __class: Map
+--- !Transform &2
+name: ""
+guid: {a: 5038539576963723317, b: 11342312676666389643}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+children:
+  - {localId: 3}
+  - {localId: 11}
+  - {localId: 19}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &3
+name: ""
+guid: {a: 5052244472159460332, b: 14190300852125890465}
+enabled: true
+localPosition: {x: 0, y: -20, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &4
+name: SkeletonAndRenderRoot
+guid: {a: 5335800387075853312, b: 3001501794741051568}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 3}
+children:
+  - {localId: 5}
+  - {localId: 10}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &5
+name: ButterflyRoot_jnt
+guid: {a: 4761532381550076355, b: 15004139948386403509}
+enabled: true
+localPosition: {x: -1e-15, y: 4.276334e-15, z: 1.502795e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7543831, x: 0.5677763, y: 0.2301094, z: 0.2357662}
+parent: {localId: 4}
+children:
+  - {localId: 6}
+  - {localId: 7}
+  - {localId: 8}
+  - {localId: 9}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &6
+name: UpperWing_R_jnt
+guid: {a: 4954956490355298960, b: 10699190118855373447}
+enabled: true
+localPosition: {x: 0.1499764, y: 0.02816659, z: -0.02731121}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &7
+name: UpperWing_L_jnt
+guid: {a: 5260106692727103846, b: 14280710413172656822}
+enabled: true
+localPosition: {x: -0.1714609, y: 0.02756617, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &8
+name: LowerWing_R_jnt
+guid: {a: 5570230967620076201, b: 15383384457107619727}
+enabled: true
+localPosition: {x: 0.3464776, y: -1.49238, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &9
+name: LowerWing_L_jnt
+guid: {a: 5383858817454865501, b: 10679318243003113385}
+enabled: true
+localPosition: {x: -0.346478, y: -1.492379, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1.227106e-14, x: 1, y: -4.371139e-08, z: -2.8213e-07}
+parent: {localId: 5}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &10
+name: Butterfly_Mesh
+guid: {a: 5254759806789890160, b: 17481893972753390525}
+enabled: true
+localPosition: {x: -0.01074227, y: 0.7428476, z: 5.960464e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 4}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &11
+name: ""
+guid: {a: 5496091918503330501, b: 6281061198831832749}
+enabled: true
+localPosition: {x: 0, y: 20, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &12
+name: SkeletonAndRenderRoot
+guid: {a: 5500711208193732327, b: 3600203520659248561}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 11}
+children:
+  - {localId: 13}
+  - {localId: 18}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &13
+name: ButterflyRoot_jnt
+guid: {a: 4940194701832341434, b: 733836491895631746}
+enabled: true
+localPosition: {x: -1e-15, y: 4.276334e-15, z: 1.502795e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7543831, x: 0.5677763, y: 0.2301094, z: 0.2357662}
+parent: {localId: 12}
+children:
+  - {localId: 14}
+  - {localId: 15}
+  - {localId: 16}
+  - {localId: 17}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &14
+name: UpperWing_R_jnt
+guid: {a: 5365871207411386342, b: 10085254015965320091}
+enabled: true
+localPosition: {x: 0.1499764, y: 0.02816659, z: -0.02731121}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &15
+name: UpperWing_L_jnt
+guid: {a: 5060221504539932856, b: 10239899375002009519}
+enabled: true
+localPosition: {x: -0.1714609, y: 0.02756617, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &16
+name: LowerWing_R_jnt
+guid: {a: 5661967746717851176, b: 13049088677059955647}
+enabled: true
+localPosition: {x: 0.3464776, y: -1.49238, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &17
+name: LowerWing_L_jnt
+guid: {a: 4706377228914589223, b: 14299458808787767711}
+enabled: true
+localPosition: {x: -0.346478, y: -1.492379, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1.227106e-14, x: 1, y: -4.371139e-08, z: -2.8213e-07}
+parent: {localId: 13}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &18
+name: Butterfly_Mesh
+guid: {a: 5276454247976009767, b: 17074467218755081131}
+enabled: true
+localPosition: {x: -0.01074227, y: 0.7428476, z: 5.960464e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 12}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &19
+name: ""
+guid: {a: 5050753581290084864, b: 17371461843577696681}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 2}
+children:
+  - {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &20
+name: SkeletonAndRenderRoot
+guid: {a: 4973238922281022727, b: 16294845956041944214}
+enabled: true
+localPosition: {x: 0, y: 0, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 19}
+children:
+  - {localId: 21}
+  - {localId: 26}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &21
+name: ButterflyRoot_jnt
+guid: {a: 4733397612167198327, b: 4540656574439152062}
+enabled: true
+localPosition: {x: -1e-15, y: 4.276334e-15, z: 1.502795e-15}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: -0.7543831, x: 0.5677763, y: 0.2301094, z: 0.2357662}
+parent: {localId: 20}
+children:
+  - {localId: 22}
+  - {localId: 23}
+  - {localId: 24}
+  - {localId: 25}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &22
+name: UpperWing_R_jnt
+guid: {a: 5607137332029153569, b: 10527426746318584472}
+enabled: true
+localPosition: {x: 0.1499764, y: 0.02816659, z: -0.02731121}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &23
+name: UpperWing_L_jnt
+guid: {a: 5609953105156195682, b: 13126871545052635264}
+enabled: true
+localPosition: {x: -0.1714609, y: 0.02756617, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &24
+name: LowerWing_R_jnt
+guid: {a: 5327706506049878122, b: 4139933971027453617}
+enabled: true
+localPosition: {x: 0.3464776, y: -1.49238, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &25
+name: LowerWing_L_jnt
+guid: {a: 5024128781510602908, b: 9713753730251445}
+enabled: true
+localPosition: {x: -0.346478, y: -1.492379, z: 0}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1.227106e-14, x: 1, y: -4.371139e-08, z: -2.8213e-07}
+parent: {localId: 21}
+mobility:
+  __class: Mobility
+  value: Dynamic
+--- !Transform &26
+name: Butterfly_Mesh
+guid: {a: 5349428850194656432, b: 17937027172043343770}
+enabled: true
+localPosition: {x: -0.01074227, y: 0.7428476, z: 5.960464e-08}
+localScale: {x: 1, y: 1, z: 1}
+localOrientation: {w: 1, x: 0, y: 0, z: 0}
+parent: {localId: 20}
+mobility:
+  __class: Mobility
+  value: Dynamic

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "7f5e0f91-c456-220e-d1fb-3c070436e8fe",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "shaderMetal",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "0e3304b7-b3fd-de64-d95c-792d1f09e737",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "shaderGLES",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

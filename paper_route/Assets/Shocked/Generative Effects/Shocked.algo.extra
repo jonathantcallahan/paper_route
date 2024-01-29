@@ -1,0 +1,17 @@
+[
+  {
+    "guid": {
+      "a": "1e78e5e8-a956-cec1-d247-d35486c1f3da",
+      "b": ""
+    },
+    "extraType": "ResItemAlgorithmAsset",
+    "name": "Shocked",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "AlgorithmAsset",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7308615464631009282"
+  }
+]

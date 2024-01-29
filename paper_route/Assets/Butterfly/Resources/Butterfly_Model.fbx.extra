@@ -1,0 +1,31 @@
+[
+  {
+    "guid": {
+      "a": "7048d70b-a6c2-f61d-6155-a2a8d8f51c3c",
+      "b": ""
+    },
+    "extraType": "ResItemFbxAsset",
+    "name": "Butterfly_Model",
+    "expandInPanel": false,
+    "objGuid": "",
+    "rttiType": "Model",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7227225068601131009",
+    "importAnimation": true,
+    "importVertexColor": false,
+    "importBlendshape": true,
+    "importNormalTangentBinormal": true,
+    "regenerateNormalTangentBinormal": false,
+    "materialsGUIDs": [],
+    "meshGUIDs": [
+      "e61f8e2d-f35c-d4a6-7c12-532d6a5d5c8b"
+    ],
+    "animazGUIDs": [
+      "2ea37fa8-6612-25d8-1ced-0fde32cce772",
+      "d63a3962-6893-c86f-c46b-3af2de53c189",
+      "b1c7edb1-036a-8c81-769c-77ada2f49925"
+    ]
+  }
+]

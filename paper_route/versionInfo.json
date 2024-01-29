@@ -1,0 +1,16 @@
+{
+  "version": "3.6.3",
+  "handlers": {
+    "ComponentsCompatibilityHandler": {
+      "Transform": "85bfce2f4ffa628888c59a61f15d5b51",
+      "Camera": "8e55c3cc4ccbe0b02971fcd64010eb00",
+      "EffectNode": "d751713988987e9331980363e24189ce",
+      "DirectionalLight": "ef18955537902d318b25333b9e7b53f1",
+      "EnvironmentLighting": "3174ed5b249dee36048cc3acff47d1e7",
+      "HandCapture": "69ed57e7c11ae0ab7e0dcd90bbec3f4f",
+      "ScreenTransform": "8cc92252abf32837f581e72617dc5388",
+      "Image": "e1045c6167efec3158b76a730d390114",
+      "MeshRenderer": "0ed8ea86d5371c8bbe2ea5908543a838"
+    }
+  }
+}

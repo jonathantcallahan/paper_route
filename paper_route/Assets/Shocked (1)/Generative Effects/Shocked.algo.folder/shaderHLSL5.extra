@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "655fb92e-8bf7-c757-866d-c4db1b32048b",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "shaderHLSL5",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "540430c0-52d1-1fde-32c9-64dfd8b2491f",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Generative Effects",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

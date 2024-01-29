@@ -1,0 +1,161 @@
+[
+  {
+    "guid": {
+      "a": "bd7ac0be-924b-c4f6-70ef-eb8877fa2536",
+      "b": ""
+    },
+    "extraType": "ResItemPrefab",
+    "name": "Shocked",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Prefab",
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "data": [
+      {
+        "guid": {
+          "a": "d2fcbd73-e483-60b6-45e0-ba0062b13bb4",
+          "b": ""
+        },
+        "objGuid": "Guid(5686810463825724837, 6232914680434985107)",
+        "extraType": "Entity",
+        "name": "Shocked",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_utility"
+      },
+      {
+        "guid": {
+          "a": "a4f5bc8a-db5d-ae4d-51aa-76e92058eece",
+          "b": ""
+        },
+        "objGuid": "Guid(5504286886793006156, 17367879869461886082)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "055a52a2-a610-fb2a-65e6-393f8f2b44ae",
+          "b": ""
+        },
+        "objGuid": "Guid(5245174779080980091, 7269423164057886860)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "1b917820-b7d7-e048-4d9d-b1ae477f4d36",
+          "b": ""
+        },
+        "objGuid": "Guid(4818832766716980493, 2789178779203140023)",
+        "extraType": "Transform",
+        "name": "Transform",
+        "rttiType": "Transform",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": false,
+        "editable": true,
+        "eulerAngle": [
+          0,
+          0,
+          0
+        ]
+      },
+      {
+        "guid": {
+          "a": "853f75b6-738e-ae39-0f13-1f135ed58fe8",
+          "b": ""
+        },
+        "objGuid": "Guid(4769473367257025284, 2617707631557850288)",
+        "extraType": "Entity",
+        "name": "Generative Effects Camera",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_gan"
+      },
+      {
+        "guid": {
+          "a": "4fa56b4d-a815-3cd1-2eb3-026fedbeba39",
+          "b": ""
+        },
+        "objGuid": "Guid(5214792917051822834, 9655879455320888729)",
+        "extraType": "Camera",
+        "name": "Camera",
+        "rttiType": "Camera",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "enableMask": false,
+        "maskTexture": "00000000-0000-0000-0000-000000000802"
+      },
+      {
+        "guid": {
+          "a": "e90524b9-9ee2-0fd3-e630-b9ba955622fc",
+          "b": ""
+        },
+        "objGuid": "Guid(5524159852006271668, 10375427880246164636)",
+        "extraType": "Entity",
+        "name": "Shocked",
+        "rttiType": "Entity",
+        "version": "0.1.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "type": "none",
+        "createdEffectNodeKey": "effect_node_gan"
+      },
+      {
+        "guid": {
+          "a": "6a3021ca-0ef2-7f65-4a6a-5c72c36507e6",
+          "b": ""
+        },
+        "objGuid": "Guid(5650270832711276986, 4590470057857149623)",
+        "extraType": "GanComponent",
+        "name": "GanComponent",
+        "rttiType": "JSScriptComponent",
+        "version": "0.2.0",
+        "isVisibleInInspector": true,
+        "hideInPanel": false,
+        "expanded": true,
+        "editable": true,
+        "ganAsset": "1e78e5e8-a956-cec1-d247-d35486c1f3da"
+      }
+    ],
+    "effectNodeType": 1,
+    "dependencyData": []
+  }
+]

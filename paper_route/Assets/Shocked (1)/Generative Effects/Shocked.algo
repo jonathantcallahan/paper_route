@@ -1,0 +1,11 @@
+{
+    "version":"1.0",
+    "algorithm_name": "shockeyes",
+    "asset_path": "shockeyes/",
+    "script_path" : "shockeyes/shockeyes.js",
+    "min_sdk_version":{
+        "1128":"14.1.0",
+        "2329":"14.1.0",
+        "1180":"14.1.0"
+    }
+}

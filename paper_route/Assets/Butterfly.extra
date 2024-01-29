@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "f43ab5a7-5cd5-9385-f9ae-7f9da0cd7299",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Butterfly",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

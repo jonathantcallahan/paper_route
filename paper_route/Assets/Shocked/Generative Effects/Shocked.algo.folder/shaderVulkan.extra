@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "161213dc-605d-fd11-a1b9-ba8c41329f2d",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "shaderVulkan",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

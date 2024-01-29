@@ -1,0 +1,52 @@
+[
+  {
+    "guid": {
+      "a": "303a3952-14cb-7a0c-e914-40259c28ca00",
+      "b": ""
+    },
+    "extraType": "ResItemMaterialOmtl",
+    "name": "ButterflyBlue_Mat",
+    "expandInPanel": true,
+    "objGuid": "",
+    "rttiType": "Material",
+    "version": "0.3.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "assetPackageID": "7227225068601131009",
+    "skinObjGuid": "Guid(5525429783892909635, 4553379195909739672)",
+    "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "a3d66ac4-37fa-5883-80dd-5ea7792a3ac7"
+      },
+      {
+        "propertyName": "_OpacityTexture",
+        "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "u_NormalTex",
+        "guid": "bb71655b-72c2-7c47-b30c-08ba87009ac4"
+      },
+      {
+        "propertyName": "u_MRATex",
+        "guid": "941d01ec-1600-b57b-ae48-6c2c48e16050"
+      },
+      {
+        "propertyName": "u_EnvTex",
+        "guid": "00000000-0000-0000-0000-000000000020"
+      },
+      {
+        "propertyName": "u_EmissiveTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_FresnelTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      },
+      {
+        "propertyName": "u_ThinTex",
+        "guid": "00000000-0000-0000-0000-00000000001c"
+      }
+    ]
+  }
+]

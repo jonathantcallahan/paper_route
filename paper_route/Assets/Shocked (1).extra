@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "29c7f31b-780d-0ebf-0497-7ef73890448f",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Shocked (1)",
+    "expandInPanel": false,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]

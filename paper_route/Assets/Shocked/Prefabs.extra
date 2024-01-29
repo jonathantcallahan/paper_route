@@ -1,0 +1,15 @@
+[
+  {
+    "guid": {
+      "a": "852da287-e3ce-2b20-a99d-9da97601afd4",
+      "b": ""
+    },
+    "extraType": "ResItemFolder",
+    "name": "Prefabs",
+    "expandInPanel": true,
+    "version": "0.1.0",
+    "isVisibleInInspector": true,
+    "hideInPanel": false,
+    "objGuid": ""
+  }
+]
