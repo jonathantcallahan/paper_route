@@ -16,8 +16,8 @@
 				"Hand 1"
 			],
 			"value_list_i18n_keys": [
-				"graph_hand_info_input_detect_valueList_hand_0",
-				"graph_hand_info_input_detect_valueList_hand_1"
+				"graph_hand_info_input_detect_valueList_hand0",
+				"graph_hand_info_input_detect_valueList_hand1"
 			]
 		}
 	],

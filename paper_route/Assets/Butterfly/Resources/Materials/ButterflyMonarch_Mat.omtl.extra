@@ -9,15 +9,27 @@
     "expandInPanel": true,
     "objGuid": "",
     "rttiType": "Material",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "assetPackageID": "7227225068601131009",
-    "skinObjGuid": "Guid(4935467751587075648, 17517233070045277623)",
+    "skinObjGuid": "Guid(5706305256347694806, 13708309978419942546)",
     "references": [
+      {
+        "propertyName": "_AlbedoTexture",
+        "guid": "0baf69dd-f9c5-17c6-aca1-6eafee7947e2"
+      },
       {
         "propertyName": "_OpacityTexture",
         "guid": "00000000-0000-0000-0000-000000000021"
+      },
+      {
+        "propertyName": "u_NormalTex",
+        "guid": "f1a94783-714f-41b2-61e7-b3fc0292e5a4"
+      },
+      {
+        "propertyName": "u_MRATex",
+        "guid": "848a5140-63b7-eb08-88be-dcee2f63df68"
       },
       {
         "propertyName": "u_EnvTex",
@@ -34,18 +46,6 @@
       {
         "propertyName": "u_ThinTex",
         "guid": "00000000-0000-0000-0000-00000000001c"
-      },
-      {
-        "propertyName": "_AlbedoTexture",
-        "guid": "0baf69dd-f9c5-17c6-aca1-6eafee7947e2"
-      },
-      {
-        "propertyName": "u_NormalTex",
-        "guid": "f1a94783-714f-41b2-61e7-b3fc0292e5a4"
-      },
-      {
-        "propertyName": "u_MRATex",
-        "guid": "848a5140-63b7-eb08-88be-dcee2f63df68"
       }
     ]
   }

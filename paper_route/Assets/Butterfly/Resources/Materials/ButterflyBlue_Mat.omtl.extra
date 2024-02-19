@@ -9,11 +9,11 @@
     "expandInPanel": true,
     "objGuid": "",
     "rttiType": "Material",
-    "version": "0.3.0",
+    "version": "0.4.0",
     "isVisibleInInspector": true,
     "hideInPanel": false,
     "assetPackageID": "7227225068601131009",
-    "skinObjGuid": "Guid(5525429783892909635, 4553379195909739672)",
+    "skinObjGuid": "Guid(5336909462253543683, 8127848489020986032)",
     "references": [
       {
         "propertyName": "_AlbedoTexture",

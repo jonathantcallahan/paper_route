@@ -1,8 +1,8 @@
 {
   "name": "",
-  "lastModified": "Mon, 29 Jan 2024 16:58:21 GMT",
-  "version": "3.6.3",
-  "internalVersion": "2.7.0",
+  "lastModified": "Mon, 19 Feb 2024 20:10:43 GMT",
+  "version": "3.7.2",
+  "internalVersion": "2.9.0",
   "toolName": "Effect House",
   "projectID": "00e25968-29cf-83c6-0faf-842e272c4d1c",
   "created": {
@@ -77,9 +77,9 @@
     "62": "Layer 62",
     "63": "Layer 63"
   },
-  "durationToCreate": 250582676,
-  "durationCreation": 250849436,
-  "durationBackground": 234033335,
+  "durationToCreate": 2075919763,
+  "durationCreation": 260666199,
+  "durationBackground": 236421953,
   "autoResetEffect": false,
   "effectHint": "",
   "templateID": "templateID_none",
@@ -89,11 +89,11 @@
   "overwriteBuiltinMakeup": 1,
   "overwriteBuiltinFaceShape": 0,
   "retouchBuiltInSetting": false,
-  "perfTested": false,
+  "perfTested": true,
   "selectedIdList": [
-    "amz:Guid(4667549832750099109, 9819913697839604619)"
+    "amz:Guid(5697649987606012298, 1456304511431909767)"
   ],
-  "lastSceneView": 0,
+  "lastSceneView": 1,
   "LastVideoInput": {
     "type": "preview_camera",
     "name": "Integrated Camera",
